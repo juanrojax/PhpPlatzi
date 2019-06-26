@@ -1,8 +1,9 @@
 <?php
 $imagenproject = '<img id="profile-picture" src="https://ui-avatars.com/api/?name=John+Doe&size=255" alt="">';
-require_once('app/Models/Job.php');
-require_once('app/Models/Projects.php');
-require_once('app/Models/Printable.php');
+//definido en psr4 del composer.json para enlazar
+require_once('vendor/autoload.php');
+
+use App\Models\{Job,Projects,Printable};
 
 $job1 = new Job('PHP Developer', 'This is an awesome job!!!');
 $job1->months = 16;

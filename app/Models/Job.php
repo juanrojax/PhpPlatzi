@@ -1,5 +1,5 @@
 <?php
-
+namespace App\Models;
 require_once('BaseElements.php');
 
 
