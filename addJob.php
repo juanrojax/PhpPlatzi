@@ -33,12 +33,6 @@ if(!empty($_POST)){
     $job->save();
 }
 
-
-
-
-var_dump($_GET);
-var_dump($_POST);
-
 ?>
 <html>
 <head>
